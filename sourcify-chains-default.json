@@ -321,7 +321,11 @@
         "type": "APIKeyRPC",
         "url": "https://lb.drpc.org/ogrpc?network=xdc&dkey={API_KEY}",
         "apiKeyEnvName": "DRPC_API_KEY"
-      }
+      },
+      "https://rpc.xdcrpc.com",
+      "https://erpc.xdcrpc.com",
+      "https://rpc.ankr.com/xdc",
+      "https://rpc.xdc.org"
     ]
   },
   "51": {
@@ -342,6 +346,7 @@
       "apiKeyEnvName": "ETHERSCAN_API_KEY"
     },
     "rpc": [
+      "https://rpc.apothem.network",
       "https://erpc.apothem.network",
       "https://apothem.xdcrpc.com"
     ]
@@ -557,7 +562,8 @@
       {
         "type": "APIKeyRPC",
         "url": "https://lb.drpc.org/ogrpc?network=bsc-testnet&dkey={API_KEY}",
-        "apiKeyEnvName": "DRPC_API_KEY"
+        "apiKeyEnvName": "DRPC_API_KEY",
+        "traceSupport": "trace_transaction"
       },
       {
         "type": "APIKeyRPC",
@@ -873,7 +879,7 @@
   },
   "169": {
     "sourcifyName": "Manta Pacific",
-    "supported": true,
+    "supported": false,
     "discoveredBy": [
       "drpc"
     ],
@@ -2012,6 +2018,7 @@
     "supported": true,
     "discoveredBy": [
       "blockscout",
+      "drpc",
       "quicknode"
     ],
     "fetchContractCreationTxUsing": {
@@ -2020,6 +2027,11 @@
       }
     },
     "rpc": [
+      {
+        "type": "APIKeyRPC",
+        "url": "https://lb.drpc.org/ogrpc?network=story-aeneid-testnet&dkey={API_KEY}",
+        "apiKeyEnvName": "DRPC_API_KEY"
+      },
       {
         "type": "APIKeyRPC",
         "url": "https://{SUBDOMAIN}.story-aeneid.quiknode.pro/{API_KEY}/",
@@ -3216,8 +3228,7 @@
       {
         "type": "APIKeyRPC",
         "url": "https://lb.drpc.org/ogrpc?network=zeta-chain-testnet&dkey={API_KEY}",
-        "apiKeyEnvName": "DRPC_API_KEY",
-        "traceSupport": "debug_traceTransaction"
+        "apiKeyEnvName": "DRPC_API_KEY"
       }
     ]
   },
@@ -5040,18 +5051,18 @@
   },
   "102032": {
     "sourcifyName": "Creditcoin Devnet",
-    "supported": true,
+    "supported": false,
     "discoveredBy": [
       "blockscout"
+    ],
+    "rpc": [
+      "https://rpc.cc3-devnet.creditcoin.network"
     ],
     "fetchContractCreationTxUsing": {
       "blockscoutApi": {
         "url": "https://creditcoin-devnet.blockscout.com"
       }
-    },
-    "rpc": [
-      "https://rpc.cc3-devnet.creditcoin.network"
-    ]
+    }
   },
   "103090": {
     "sourcifyName": "Crystaleum Mainnet",
@@ -5614,7 +5625,8 @@
       {
         "type": "APIKeyRPC",
         "url": "https://lb.drpc.org/ogrpc?network=hemi-testnet&dkey={API_KEY}",
-        "apiKeyEnvName": "DRPC_API_KEY"
+        "apiKeyEnvName": "DRPC_API_KEY",
+        "traceSupport": "debug_traceTransaction"
       }
     ]
   },
@@ -5761,8 +5773,7 @@
       {
         "type": "APIKeyRPC",
         "url": "https://lb.drpc.org/ogrpc?network=arc-testnet&dkey={API_KEY}",
-        "apiKeyEnvName": "DRPC_API_KEY",
-        "traceSupport": "trace_transaction"
+        "apiKeyEnvName": "DRPC_API_KEY"
       }
     ]
   },
