@@ -1,0 +1,75 @@
+{
+  "lastRunAt": "2026-06-24T16:21:35.495Z",
+  "pendingChanges": {
+    "change-traceSupport-7001-https://lb.drpc.org/ogrpc?network=zeta-chain-testnet&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 7001,
+      "provider": "https://lb.drpc.org/ogrpc?network=zeta-chain-testnet&dkey={API_KEY}",
+      "from": "debug_traceTransaction",
+      "to": null,
+      "consecutiveRuns": 7,
+      "firstSeenAt": "2026-06-21T15:51:55.041Z",
+      "lastSeenAt": "2026-06-24T16:21:35.495Z"
+    },
+    "change-traceSupport-5042002-https://lb.drpc.org/ogrpc?network=arc-testnet&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 5042002,
+      "provider": "https://lb.drpc.org/ogrpc?network=arc-testnet&dkey={API_KEY}",
+      "from": "trace_transaction",
+      "to": null,
+      "consecutiveRuns": 5,
+      "firstSeenAt": "2026-06-22T18:13:36.422Z",
+      "lastSeenAt": "2026-06-24T16:21:35.495Z"
+    },
+    "change-traceSupport-167000-https://lb.drpc.org/ogrpc?network=taiko&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 167000,
+      "provider": "https://lb.drpc.org/ogrpc?network=taiko&dkey={API_KEY}",
+      "from": "trace_transaction",
+      "to": "debug_traceTransaction",
+      "consecutiveRuns": 2,
+      "firstSeenAt": "2026-06-24T06:07:07.390Z",
+      "lastSeenAt": "2026-06-24T16:21:35.495Z"
+    },
+    "remove-rpc-50-https://lb.drpc.org/ogrpc?network=xdc&dkey={API_KEY}": {
+      "type": "remove-rpc",
+      "chainId": 50,
+      "provider": "https://lb.drpc.org/ogrpc?network=xdc&dkey={API_KEY}",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-24T16:21:35.495Z",
+      "lastSeenAt": "2026-06-24T16:21:35.495Z"
+    },
+    "remove-discoveredBy-50-drpc": {
+      "type": "remove-discoveredBy",
+      "chainId": 50,
+      "key": "drpc",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-24T16:21:35.495Z",
+      "lastSeenAt": "2026-06-24T16:21:35.495Z"
+    },
+    "remove-rpc-169-https://lb.drpc.org/ogrpc?network=manta-pacific&dkey={API_KEY}": {
+      "type": "remove-rpc",
+      "chainId": 169,
+      "provider": "https://lb.drpc.org/ogrpc?network=manta-pacific&dkey={API_KEY}",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-24T16:21:35.495Z",
+      "lastSeenAt": "2026-06-24T16:21:35.495Z"
+    },
+    "remove-rpc-102032-https://rpc.cc3-devnet.creditcoin.network": {
+      "type": "remove-rpc",
+      "chainId": 102032,
+      "provider": "https://rpc.cc3-devnet.creditcoin.network",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-24T16:21:35.495Z",
+      "lastSeenAt": "2026-06-24T16:21:35.495Z"
+    },
+    "remove-fetchUsing-102032-blockscoutApi": {
+      "type": "remove-fetchUsing",
+      "chainId": 102032,
+      "key": "blockscoutApi",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-24T16:21:35.495Z",
+      "lastSeenAt": "2026-06-24T16:21:35.495Z"
+    }
+  }
+}
